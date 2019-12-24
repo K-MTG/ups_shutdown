@@ -7,7 +7,7 @@ Python script that powers down Raspberry Pi &amp; Hubitat when UPS battery drops
 
 # Installation
 1. [Install NUT (Network UPS Tool) on RPI](https://www.reddit.com/r/homelab/comments/5ssb5h/ups_server_on_raspberry_pi/ "NUT Install")
-2. Install [nut2](https://github.com/rshipp/python-nut2/ "NUT2") on Pi (pip3 install nut 2) 
+2. Install [nut2](https://github.com/rshipp/python-nut2/ "NUT2") on Pi (pip3 install nut2) 
 
 # Usage
 On the ups_monitor.py file
