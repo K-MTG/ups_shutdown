@@ -17,4 +17,7 @@ On the ups_monitor.py file
 * RUN SCRIPT: python3 ups_monitor.py (add this to crontab -e on @reboot if you want the script to autostart on bootup).
 
 The "UPS_SHUTDOWN_THRES" variable is the percent at which the Pi and Hubitat will shutdown. 
+THE "UPS_SHUTDOWN_MIN_THRES" is the number of minutes remaining on the UPS when the Pi and Hubitat will shutdown 
+Note: The shutdown will occur if either the UPS_SHUTDOWN_THRES or UPS_SHUTDOWN_MIN_THRES conditions are satisfied. 
 The "CHECK_INTERVAL" is the number of seconds on how frequently the script checks the UPS status.
+
